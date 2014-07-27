@@ -1,5 +1,5 @@
 /*!
- * Boost On v0.0.1
+ * Boost On v0.0.2
  * http://grotesq.com
  *
  * Author : Kim Naram ( a.k.a. Unknown )
@@ -8,20 +8,31 @@
  * Copyright 2007-2014 The GrotesQ
  * Released under the MIT license
  *
- * Date: 2014-03-21 15:26
+ * Date: 2014-07-24 02:31
  */
-.h-group {
-  overflow: hidden;
-}
-.h-group .cell {
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.xcol-1,
+.xcol-2,
+.xcol-3,
+.xcol-4,
+.xcol-5,
+.xcol-6,
+.xcol-7,
+.xcol-8,
+.xcol-9,
+.xcol-10 {
   float: left;
-  position: relative;
-}
-.h-group .cell.right {
-  float: right;
-}
-.h-group:after {
-  clear: both;
 }
 .col-1 {
   width: 8.333333333333332%;
@@ -272,6 +283,7 @@
 .tablize {
   display: table;
   border-collapse: collapse;
+  width: 100%;
 }
 .tablize .table-row {
   display: table-row;
@@ -282,4 +294,19 @@
 .tablize .cell {
   display: table-cell;
   vertical-align: top;
+  float: none;
+}
+.h-group {
+  overflow: hidden;
+}
+.h-group > .cell {
+  display: block;
+  float: left;
+  position: relative;
+}
+.h-group > .cell.right {
+  float: right;
+}
+.h-group:after {
+  clear: both;
 }
