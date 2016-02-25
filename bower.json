@@ -1,0 +1,23 @@
+{
+  "name": "Boost On",
+  "homepage": "https://github.com/Unk/BoostOn",
+  "description": "CSS Layout Helper",
+  "main": "src/booston.css",
+  "moduleType": [],
+  "keywords": [
+    "layout",
+    "bootstrap"
+  ],
+  "authors": [
+    "Naram Kim (a.k.a. Unknown) unknown@grotesq.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build.sh"
+  ]
+}
